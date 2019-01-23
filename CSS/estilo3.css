@@ -4,19 +4,7 @@
 	padding:0px.;
 }
 
-h1 {
 
-font:bold 40px TeX Gyre Chorus, verdana;
-
-}
-
-h2{
-
-font-weight: bold;
-font-size:15px;
-font-family: arial, verdana,
-
-}
 
 header, section, footer, aside, nav, article, figure, figcaption,hgroup {
  display: block;
@@ -24,7 +12,9 @@ header, section, footer, aside, nav, article, figure, figcaption,hgroup {
 }
 
 html{
-background: #D8D8D8;
+/*background: #0a7edf;*/
+background: -webkit-linear-gradient( #fc7c33,  #fcc20d );
+
 
 
 }
@@ -38,26 +28,29 @@ body{
 	width:960px;
 	margin: 30px auto;
 	text-align:left;
-background: linear-gradient(top, #FFFFFF 50%, #006699 90%);*/
+/*background: linear-gradient(top, #FFFFFF 50%, #006699 90%);*/
 /*Gradiente radial 
 
 /*la posición de comienzo es el origen y puede ser declarada en pixeles, porcentaje
 o una combinación de palabras clave cemter, top, bottom, left y right
 finalmente color y posición para el inicio y final  */
 /*background: -webkit-radial-gradient(center, circle, #FFFFFF 0%, #006699 200%);
-background: -moz-radial-gradient(center, circle, #0066ff 0%, #006699 200%);*/
+	background: -moz-radial-gradient(center, circle, white 0%, #006699 200%);*/
+background: -webkit-linear-gradient(white, #2dfa39);
+
 }
 
 #cabecera {
-background: #E1b235;
-border: 1px solid black;
-padding: 20px;
+	background-image: url("../imagenes/ClashofClans.jpg");
+/*background:  #e1b235;*/
+border: 5px solid black;
+padding: 70px;
 
 }
 
 #menu {
 
-	background: #d8d8d8;
+	/*background: #D8D8D8;*/
 	padding: 5px 15px;
 	border: 0px solid black;
 }
@@ -81,7 +74,7 @@ padding: 20px;
 
 	float: left;
 	width:220px;
-	margin:20px 0px;
+	margin:20px 1px;
 	padding:20px;
 	/*con fondo se ve el lateral pero 
 	como no llega al final le pongo altura de 500
@@ -95,7 +88,7 @@ padding: 20px;
 	clear:both;
 	text-align:center;
 	padding: 20px;
-	border-top:2px solid #999999;
+	border-top:2px solid black;
 }
 
 #principal{
@@ -118,19 +111,6 @@ box-shadow:purple 5px 5px 10px inset;
 
 }
 
-hgroup {
-
-/* genera sombra en el texto.
-el color, distancia horizontal y vertical y el radio de difuminación  */
-	text-shadow: white 3px 3px 5px;
-}
-
-nav#menu ul li:hover{
-background: #51f551;
-
-}
-
-/*span img{display: block;float: right;}*/
 
 #cabecera figure img{display:block; margin-right:0px;}
 /*aplico mismas propiedades que en principal, menos text align que no le sirve a la imagen*/
@@ -147,34 +127,30 @@ padding:15px;
 }
 
 article{
-font:bold 40px TeX Gyre Chorus, verdana;
-background: #1ab0ec;
-border: 1px solid black;
+/*background:  #e2e5df;*/
+border: 0px solid black;
 padding: 20px;
 margin-bottom: 15px;
-font-size: 20px;
-text-shadow: red 3px 3px 5px;
+font:bold 20px TeX Gyre Chorus, verdana;
+/*text-shadow:  red  3px 3px 5px;*/
+background: -webkit-radial-gradient(white, #ff7fd8 );
 }
 
 aside#columna {
-background-image: url("../imagenes/imagenfondo.jpeg");
+background-image: url("../imagenes/Clash of Clans-272x380.jpg");
 height: 340px;
 width: 200px;
-color: white;
-font-weight: bold;
-font-size: 15px;
-}
-
-#pie{
-
-	clear:both;
-	text-align:center;
-	padding: 20px;
-	border-top:2px solid black;
+/*opacity: 0.7;	*/
+font-weight: bold; 
 }
 
 
 a:visited{
-	font:bold 10px;
-	color:white;
+	color: blue;
+
+}
+
+div.centrar{
+
+	text-align: center;
 }

@@ -20,14 +20,16 @@ font-family: arial, verdana,
 
 header, section, footer, aside, nav, article, figure, figcaption,hgroup {
  display: block;
-
+ color:red;
 }
 
-html{
-background: #D8D8D8;
+/*html{
+background: #D8D8D8;*/
+html {
 
+background: url(../imagenes/nieve.gif);
+	}
 
-}
 
 body{
 	text-align: center;
@@ -38,7 +40,7 @@ body{
 	width:960px;
 	margin: 30px auto;
 	text-align:left;
-background: linear-gradient(top, #FFFFFF 50%, #006699 90%);*/
+	background: linear-gradient(top, #FFFFFF 50%, #006699 90%);*/
 /*Gradiente radial 
 
 /*la posición de comienzo es el origen y puede ser declarada en pixeles, porcentaje
@@ -49,15 +51,15 @@ background: -moz-radial-gradient(center, circle, #0066ff 0%, #006699 200%);*/
 }
 
 #cabecera {
-background: #E1b235;
-border: 1px solid black;
+background: transparent;
+border: 0px solid black;
 padding: 20px;
 
 }
 
 #menu {
 
-	background: #d8d8d8;
+	background: transparent;
 	padding: 5px 15px;
 	border: 0px solid black;
 }
@@ -86,12 +88,12 @@ padding: 20px;
 	/*con fondo se ve el lateral pero 
 	como no llega al final le pongo altura de 500
 	personalmente creo que sin color de fondo mejor*/
-	background:#CCCCCC;
+	background:transparent;
 	height: 500px;
 }
 
 #pie{
-
+	color:red;
 	clear:both;
 	text-align:center;
 	padding: 20px;
@@ -126,7 +128,7 @@ el color, distancia horizontal y vertical y el radio de difuminación  */
 }
 
 nav#menu ul li:hover{
-background: #51f551;
+background: red;
 
 }
 
@@ -148,8 +150,8 @@ padding:15px;
 
 article{
 font:bold 40px TeX Gyre Chorus, verdana;
-background: #1ab0ec;
-border: 1px solid black;
+background: transparent;
+border: 0px solid black;
 padding: 20px;
 margin-bottom: 15px;
 font-size: 20px;
@@ -157,10 +159,9 @@ text-shadow: red 3px 3px 5px;
 }
 
 aside#columna {
-background-image: url("../imagenes/imagenfondo.jpeg");
 height: 340px;
 width: 200px;
-color: white;
+color: transparent;
 font-weight: bold;
 font-size: 15px;
 }
