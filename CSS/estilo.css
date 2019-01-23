@@ -1,0 +1,187 @@
+*{
+
+	margin: 0px.;
+	padding:0px.;
+}
+
+h1 {
+
+font:bold 40px TeX Gyre Chorus, verdana;
+
+}
+
+h2{
+
+font-weight: bold;
+font-size:15px;
+font-family: arial, verdana,
+
+}
+
+header, section, footer, aside, nav, article, figure, figcaption,hgroup {
+ display: block;
+
+}
+
+html{
+background: white;
+
+
+}
+
+body{
+	text-align: center;
+	
+}
+#contenedor {
+
+	width:960px;
+	margin: 30px auto;
+	text-align:left;
+background: linear-gradient(top, #FFFFFF 50%, #006699 90%);*/
+/*Gradiente radial 
+
+/*la posición de comienzo es el origen y puede ser declarada en pixeles, porcentaje
+o una combinación de palabras clave cemter, top, bottom, left y right
+finalmente color y posición para el inicio y final  */
+/*background: -webkit-radial-gradient(center, circle, #FFFFFF 0%, #006699 200%);
+background: -moz-radial-gradient(center, circle, #0066ff 0%, #006699 200%);*/
+}
+
+#cabecera {
+background: #E1b235;
+border: 1px solid black;
+padding: 20px;
+
+}
+
+#menu {
+
+	background: white;
+	padding: 5px 15px;
+	border: 0px solid black;
+}
+
+#menu li {
+
+	display: inline-block;
+	list-style: none;
+	padding: 15px;
+	font-size:20px;
+	font-weight: bold;
+
+}
+#seccion{
+
+	float:left;
+	width:660px;
+	margin:20px;
+}
+#columna{
+
+	float: left;
+	width:220px;
+	margin:20px 0px;
+	padding:20px;
+	/*con fondo se ve el lateral pero 
+	como no llega al final le pongo altura de 500
+	personalmente creo que sin color de fondo mejor*/
+	background:#CCCCCC;
+	height: 500px;
+}
+
+#pie{
+
+	clear:both;
+	text-align:center;
+	padding: 20px;
+	border-top:2px solid #999999;
+}
+
+#principal{
+
+display:block;
+width:500px;
+margin: 10px auto;
+padding: 15px;
+text-align: center;
+
+border:1px solid black;
+background: #DDDDDD;
+-moz-border-radius:20px;
+-webkit-border-radius: 20px;
+border-radius:20px;
+/*el primer valor es el color y los otros dos valores el desplazamiento
+de la sombra.
+El último valor inset convierte la sombra externa en interna  */
+box-shadow:purple 5px 5px 10px inset;
+
+}
+
+hgroup {
+
+/* genera sombra en el texto.
+el color, distancia horizontal y vertical y el radio de difuminación  */
+	text-shadow: white 3px 3px 5px;
+}
+
+nav#menu ul li:hover{
+background: #51f551;
+
+}
+
+/*span img{display: block;float: right;}*/
+
+#cabecera figure img{display:block; margin-right:0px;}
+/*aplico mismas propiedades que en principal, menos text align que no le sirve a la imagen*/
+
+
+figure img{
+
+/*porque es en linea*/
+display:block;
+margin: 0 auto; /*la centro como una tabla que ahora sí es un elemento en bloque*/
+padding:15px;
+
+
+}
+
+article{
+font:bold 40px TeX Gyre Chorus, verdana;
+background: #1ab0ec;
+border: 1px solid black;
+padding: 20px;
+margin-bottom: 15px;
+font-size: 20px;
+text-shadow: red 3px 3px 5px;
+}
+
+aside#columna {
+background-image: url("../imagenes/imagenfondo.jpeg");
+height: 340px;
+width: 200px;
+color: white;
+font-weight: bold;
+font-size: 15px;
+}
+
+#pie{
+
+	clear:both;
+	text-align:center;
+	padding: 20px;
+	border-top:2px solid black;
+}
+
+
+a:visited{
+	font:bold 10px;
+	color:blue;
+}
+
+a:hover{
+color:red;
+background-color: transparent;
+text-decoration: underline;
+
+}
