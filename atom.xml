@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Página web sobre los juegos de Supercell</title>
+      <link href='http://supercell.x10.bz/index.html'/>
+      <subtitle>En esta web analizamos las últimas novedades sobre los juegos de Supercell</subtitle>
+      <author>
+          <name>Miguel Ángel Ruiz Mariscal</name>
+      </author>
+    <entry>
+      <title>Página de Clash Royale</title>
+      <link href='http://supercell.x10.bz/clash_royale.html'/>
+      <subtitle>Mantente al día sobre las actualizaciones del juego con más descargas de Supercell</subtitle>
+    </entry>
+    <entry>
+      <title>Página de Clash of Clans</title>
+      <link href='http://supercell.x10.bz/clash_of_clans.html'/>
+      <subtitle>Aquí encontrarás información sobre este juego de estrategia</subtitle>
+    </entry>
+    <entry>
+      <title>Página acerca de Boom Beach</title>
+      <link href='http://supercell.x10.bz/brawl_stars.html#boombeach'/>
+      <subtitle>El juego de la invasión que te hará estar pegado al móvil</subtitle>
+    </entry>
+    <entry>
+      <title>Página sobre el nuevo juego, "Brawl Stars"</title>
+      <link href='http://supercell.x10.bz/brawl_stars.html#brawlstars'/>
+      <subtitle>Descubre el nuevo modo de 3 VS 3 de Supercell.¡Apunta y dispara!</subtitle>
+    </entry>
+  </channel>
+</feed>
