@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Página web sobre los juegos de Supercell</title>
+  <link>http://supercell.x10.bz</link>
+  <description>En esta web analizamos las últimas novedades sobre los juegos de Supercell</description>
+  <item>
+    <title>Página de Clash Royale</title>
+    <link>http://supercell.x10.bz/clash_royale.html</link>
+    <description>Mantente al día sobre las actualizaciones del juego con más descargas de Supercell</description>
+  </item>
+  <item>
+    <title>Página de Clash of Clans</title>
+    <link>http://supercell.x10.bz/clash_of_clans.html</link>
+    <description>Aquí encontrarás información sobre este juego de estrategia</description>
+  </item>
+  <item>
+    <title>Página acerca de Boom Beach</title>
+    <link>http://supercell.x10.bz/brawl_stars.html#boombeach</link>
+    <description>El juego de la invasión que te hará estar pegado al móvil</description>
+  </item>
+  <item>
+    <title>Página sobre el nuevo juego, "Brawl Stars"</title>
+    <link>http://supercell.x10.bz/brawl_stars.html#brawlstars</link>
+    <description>Descubre el nuevo modo de 3 VS 3 de Supercell.¡Apunta y dispara!</description>
+  </item>
+</channel>
+</rss>
